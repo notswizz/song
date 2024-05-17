@@ -49,11 +49,11 @@ const DiagramCanvas = ({ formData }) => {
         yOffset += 50;
       }
       if (formData.subject) {
-        addText(formData.subject, { left: 400, top: yOffset, width: 500, fontSize: 20, fill: 'black', textAlign: 'center', originX: 'center' });
+        addText(formData.subject, { left: 400, top: yOffset, width: 500, fontSize: 14, fill: 'black', textAlign: 'center', originX: 'center' });
         yOffset += 30;
       }
       if (formData.soundsLike) {
-        addText(`Sounds Like: ${formData.soundsLike}`, { left: 500, top: yOffset, width: 700, fontSize: 20, fill: 'black', textAlign: 'center', originX: 'center' });
+        addText(`Sounds Like: ${formData.soundsLike}`, { left: 500, top: yOffset, width: 700, fontSize: 13, fill: 'black', textAlign: 'center', originX: 'center' });
         yOffset += 50;
       }
 
